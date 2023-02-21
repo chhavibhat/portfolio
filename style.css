@@ -1,0 +1,184 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+}
+
+
+.topnav{
+    background: linear-gradient(rgb(14, 7, 28), #e62ae6);
+    background: -o-linear-gradient(rgb(8, 2, 18), #ec8eec);
+    background: -moz-linear-gradient(rgb(12, 6, 23), #ed74ed);
+    background: -webkit-linear-gradient(rgb(9, 4, 19), #f26ef2);
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.topnav a{
+    text-decoration: none;
+    font-size: 18px;
+    float: left;
+    padding: 14px 16px;
+    color: whitesmoke;
+}
+
+.topnav a.name{
+    float: right;
+}
+
+.hello{
+    text-align: center;
+}
+
+.about h2{
+    text-decoration: underline;
+    text-align: center;
+}
+
+#description {
+    display: flex;
+    align-items: center;
+}
+
+#description p{
+    margin-left: 1em;
+    float: right;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 30px 30px 30px 30px;
+    border-radius: 25px;
+}
+
+.desc img{
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+#projects h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#projects ul li{
+    list-style:circle;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#projects ul li a{
+    text-decoration: none;
+}
+
+#projects ul li a:hover, #projects ul li a.active{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 25px;
+    font-weight: bold;
+    transition: font-size 1s ease;
+    -webkit-transition: font-size 1s ease;
+    -o-transition: font-size 1s ease;
+    -moz-transition: font-size 1s ease;
+    -ms-transition: font-size 1s ease;   
+}
+
+#skills h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#skills ul li{
+    list-style:decimal;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+}
+
+#skills ul li:hover{
+    font-weight: bold;
+    color: darkblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: font-size 1s ease;
+    -webkit-transition: font-size 1s ease;
+    -o-transition: font-size 1s ease;
+    -moz-transition: font-size 1s ease;
+    -ms-transition: font-size 1s ease;  
+}
+
+#achieve h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#achieve ul li{
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+#achieve ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.footer{
+    height: 30px;
+    background: linear-gradient(rgb(244, 243, 246), #995f99);
+    background: -o-linear-gradient(rgb(244, 243, 246), #995f99);
+    background: -moz-linear-gradient(rgb(244, 243, 246), #995f99);
+    background: -webkit-linear-gradient(rgb(244, 243, 246), #995f99);
+}
+
+.footer p{
+    text-align: center;
+    color: black;
+}
+
+#education-details h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#education-details dl dd{
+    float: right;
+    padding: 0.5;    
+}
+
+#education-details dl dd:hover{
+    font-weight: bolder;
+    font-size: 20px;
+    color: crimson;
+}
+
+#education-details dl dt:hover{
+    font-weight: bold;
+    font-size: 20px;
+    color: crimson;
+}
+
+#experiences h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#responsibilities h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#responsibilities dl dd{
+    list-style: circle;
+    text-decoration-line: underline;
+}
+
+#responsibilities dl dd:hover{
+    font-size: 20px;
+    list-style: none;
+    color:red;
+}
+
+#contact p{
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    text-decoration: crimson;
+}
